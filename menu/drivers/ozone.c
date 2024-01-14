@@ -80,8 +80,8 @@
 #define HEADER_HEIGHT                 87
 #define FOOTER_HEIGHT                 78
 
-#define ENTRY_PADDING_HORIZONTAL_HALF 40
-#define ENTRY_PADDING_HORIZONTAL_FULL 140
+#define ENTRY_PADDING_HORIZONTAL_HALF 20
+#define ENTRY_PADDING_HORIZONTAL_FULL 70
 #define ENTRY_PADDING_VERTICAL        20
 #define ENTRY_HEIGHT                  50
 #define ENTRY_SPACING                 8
@@ -90,8 +90,8 @@
 
 /* > 'SIDEBAR_WIDTH' must be kept in sync with
  *   menu driver metrics */
-#define SIDEBAR_WIDTH                 408
-#define SIDEBAR_X_PADDING             40
+#define SIDEBAR_WIDTH                 348
+#define SIDEBAR_X_PADDING             20
 #define SIDEBAR_Y_PADDING             20
 #define SIDEBAR_ENTRY_HEIGHT          50
 #define SIDEBAR_ENTRY_Y_PADDING       10

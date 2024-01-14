@@ -316,7 +316,9 @@ float gfx_display_get_dpi_scale(
        || (p_disp->menu_driver_id != last_menu_driver_id))
    {
       adjusted_scale            = scale * menu_scale_factor;
-#ifdef HAVE_OZONE
+      // JohnnyonFlame: We don't want to allow ozone to cap the size, due to
+      // the display being too small to read on handhelds...
+#if 0
       if (p_disp->menu_driver_id == MENU_DRIVER_ID_OZONE)
       {
          /* Ozone has a capped scale factor */
